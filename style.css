@@ -4,6 +4,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +13,7 @@
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    
 }
 
 a {
@@ -34,6 +36,8 @@ ul {
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
 }
 
 
@@ -41,6 +45,24 @@ ul {
 .nav-item {
     display: flex;
     gap: 20px;
+    align-items: center;
     
-
 }
+.navbar h2 {
+    font-size: 45px;
+}
+
+ .btn {
+    background: #FD6E0A;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  border-radius: 15px;
+    
+ }
+
+ .nav-item li {
+    font-size: 20pxd;
+    
+ }
