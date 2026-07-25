@@ -260,7 +260,42 @@ p {
 
 }
 
+#footer {
+   background-color: #FFF8F3;
+}
 
+.footer-section-title {
+    font-size: 35px;
+}
+
+.footer-content p {
+    margin: 20px 0;
+}
+.footer-container {
+    display: flex; 
+}
+
+.footer-content, .footer-form {
+    width: 50%;
+}
+
+.social-icon {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-form input[type="text"] , input[type="email"],textarea {
+ height: 64px;
+ display: block;
+ width: 100%;
+ padding: 10px 20px;
+ border: none;
+ margin-bottom: 30px;
+}
+
+.footer-container {
+    padding: 50px 0;
+}
 
 
 
